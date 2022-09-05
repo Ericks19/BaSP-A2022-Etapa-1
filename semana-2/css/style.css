@@ -57,3 +57,47 @@ aside h2 {
                 padding-top: 15px;
                 width: 80%;
 }
+main {
+  margin-top: 70px;
+  margin-left: 300px;
+}
+
+
+        /*empieza page 1*/
+.page-1 {
+      width: 100%;
+      vertical-align: bottom;
+}
+.page-1 div {
+          width: 49%;
+          display: inline-block;
+          vertical-align: bottom;
+}
+.page-1 h1 {
+        margin-bottom: 100px;
+        margin-top: 50px;
+        padding-left: 50px;
+        font-size: 40px;
+}
+.page-1 h3 {
+        font-size: 20px;
+        width: 85%;
+        margin-left: 40px;
+}
+.page-1 p {
+        margin-top: 30px;
+        width: 70%;
+        background-color: #d9d9d9;
+        padding: 15px 10px;
+        margin-left: 60px;
+}
+.page-1 button {
+            margin-top: 35px;
+            padding: 10px 25px;
+            background-color: white;
+            border-radius: 5px;
+            margin-left: 80px;
+}
+.page-1 img {
+          border-radius: 10px;	
+}
