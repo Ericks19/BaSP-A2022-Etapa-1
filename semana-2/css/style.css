@@ -171,3 +171,41 @@ section h2 {
               font-size: 20px;
               padding: 10px;
 }
+							/* empieza Formulario*/
+							
+.h2-information {
+                font-size: 40px;
+                padding-top: 100px;
+                padding-left: 160px;
+}
+form {
+    margin-top: 30px;
+    margin-left: 400px;
+}
+form div {
+        margin-bottom: 10px;
+}
+form label {
+                display: block;
+                padding-bottom: 8px;
+}
+form input {
+          display: block;
+}
+.long-bar {
+          width: 220px;
+          height: 20px;
+}
+.contact-area {
+              padding-left: 30px;
+}
+.contact-area input {
+                    display: inline-block;
+                    margin-top: 5px;
+}
+.buttom {
+        margin-left: 165px;
+        margin-top: 12px;
+        padding: 7px 20px;
+        border-radius: 5px rgb(255, 255, 255);
+}
