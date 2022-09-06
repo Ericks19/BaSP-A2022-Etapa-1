@@ -101,3 +101,73 @@ main {
 .page-1 img {
           border-radius: 10px;	
 }
+/* empieza el about*/
+section h2 {
+  font-size: 50px;
+  margin-top: 100px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.productivity {	display: inline-block;
+      width: 48%;
+}
+.productivity img {
+          float: left;
+          padding-right: 20px;
+}
+.productivity article {
+              padding: 20px;
+}
+.productivity h4 {
+        font-size: 20px;
+        padding: 10px;
+}
+.work-traceability {display: inline-block;
+          width: 48%;
+}
+.work-traceability img {
+              float: left;
+              padding-right: 20px;
+}
+.work-traceability article {
+                  padding: 20px;
+}
+.work-traceability h4 {
+              font-size: 20px;
+              padding: 10px;
+}
+    /* empieza Functions*/
+section h2 {
+  font-size: 50px;
+  margin-top: 100px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.Record-of-hour {	display: inline-block;
+      width: 48%;
+}
+.Record-of-hour img {
+          float: left;
+          padding-right: 20px;
+}
+.Record-of-hour article {
+              padding: 20px;
+}
+.Record-of-hour h4 {
+        font-size: 20px;
+        padding: 10px;
+}
+.Reports {display: inline-block;
+          width: 48%;
+}
+.Reports img {
+              float: left;
+              padding-right: 20px;
+}
+.Reports article {
+                  padding: 20px;
+}
+.Reports h4 {
+              font-size: 20px;
+              padding: 10px;
+}
