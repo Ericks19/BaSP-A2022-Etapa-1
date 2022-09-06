@@ -237,3 +237,91 @@ form input {
 .right-p p {
 padding-top: 10px;
 }
+          /* empieza Products lists*/
+.products h2 {
+  background-color: #d9d9d9;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.products {
+display: inline-block;
+width: 40%;
+margin-left: 60px;
+}
+.products p {
+  width: 50%;
+  margin-left: 10px
+}
+.products-lists {
+    display: inline-block;
+    background-color: #d9d9d9;
+    padding: 30px;
+}
+.products-lists li {
+        display: inline-block;
+        padding-bottom: 40px;
+}
+#last-li {
+padding-bottom: 0px;
+}
+      /* empieza Business lists*/
+.busisness h2 {
+  background-color: #d9d9d9;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.busisness {
+display: inline-block;
+width: 40%;
+margin-left: 60px;
+}
+.busisness p {
+  width: 50%;
+  margin-left: 10px
+}
+.busisness-list {
+    display: inline-block;
+    background-color: #d9d9d9;
+    padding: 30px;
+}
+.busisness-list li {
+        display: inline-block;
+        padding-bottom: 40px;
+        width: 120px;
+}
+#last-li {
+padding-bottom: 0px;
+}
+
+      /* empieza Support lists*/
+.support h2 {
+  background-color: #d9d9d9;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.support {
+display: inline-block;
+width: 40%;
+margin-left: 60px;
+}
+.support p {
+  width: 50%;
+  margin-left: 10px
+}
+.support-list {
+    display: inline-block;
+    background-color: #d9d9d9;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.support-list li {
+        display: inline-block;
+        padding-bottom: 40px;
+        width: 120px;
+}
+#last-li {
+padding-bottom: 0px;
+}
