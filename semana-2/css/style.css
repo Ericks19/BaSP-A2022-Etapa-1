@@ -209,3 +209,31 @@ form input {
         padding: 7px 20px;
         border-radius: 5px rgb(255, 255, 255);
 }
+              /* empieza Our history*/
+.our-history h2 {
+  margin-bottom: 0%;
+}
+.our-history h3 {
+  font-size: 25px;
+  padding-left: 22px;
+}
+.our-history > p {
+  display: inline-block;
+  font-size: 19px;
+  width: 30%;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-bottom: 220px;
+}
+.our-history div {
+  display: inline-block;
+  width: 40%;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 100px;
+  float: right;
+
+}
+.right-p p {
+padding-top: 10px;
+}
