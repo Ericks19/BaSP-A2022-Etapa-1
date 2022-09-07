@@ -1,223 +1,271 @@
 * {
   margin: 0%;
+  color: #373867;
 }
+
 header {
-      box-sizing: border-box;
-      height: 70px;
-      position: fixed;
-      top:0;
-      background-color: #d9d9d9;
-      padding: 25px;
-      width: 100%;
-      border-bottom: solid 1.5px ;			
+  box-sizing: border-box;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  background-color: #d9d9d9;
+  padding: 25px;
+  width: 100%;
+  border-bottom: solid 1.5px;
 }
+
 a {
   text-decoration: none;
 }
+
 .header-nav a {
-              padding-left: 50px;
+  padding-left: 50px;
 }
+
 .header-nav i {
-              padding-left: 30px;
+  padding-left: 30px;
 }
+
 .header-div {
-            display: inline-block;
-            padding-left: 500px;
+  display: inline-block;
+  padding-left: 500px;
 }
+
 .header-div a {
-              padding-left: 30px;
+  padding-left: 30px;
 }
-/* empieza el sidebar */ 
+
+/* empieza el sidebar */
 aside {
-      display: inline-block;
-      width: 250px;
-      background-color: #d9d9d9;
-      padding-left: 30px;
-      position: fixed;
-      height: 100%;
+  display: inline-block;
+  width: 250px;
+  background-color: #d9d9d9;
+  padding-left: 30px;
+  position: fixed;
+  height: 100%;
 }
-aside input { 
-            width: 80%;
-            margin-top: 25px;
+
+aside input {
+  width: 80%;
+  margin-top: 25px;
 }
-aside h2 {
-        margin-top: 50px;
-        border-bottom: solid 1.3px;
+
+aside span {
+  margin-top: 50px;
+  border-bottom: solid 1.3px;
+  display: block;
 }
+
 .a-navbar div {
-              margin-top: 25px;
+  margin-top: 25px;
 }
+
 .get-in-touch {
-              margin-top: 100px;
-              border-bottom: solid 1px;				
+  margin-top: 100px;
+  border-bottom: solid 1px;
 }
+
 .info-sidebar p {
-                display: inline-block;
-                padding-left: 20px;
-                padding-top: 15px;
-                width: 80%;
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 15px;
+  width: 80%;
 }
+
 main {
   margin-top: 70px;
   margin-left: 300px;
 }
 
 
-        /*empieza page 1*/
+/*empieza page 1*/
 .page-1 {
-      width: 100%;
-      vertical-align: bottom;
+  width: 100%;
 }
+
 .page-1 div {
-          width: 49%;
-          display: inline-block;
-          vertical-align: bottom;
+  width: 49%;
+  display: inline-block;
+  vertical-align: bottom;
 }
+
 .page-1 h1 {
-        margin-bottom: 100px;
-        margin-top: 50px;
-        padding-left: 50px;
-        font-size: 40px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding-left: 50px;
+  font-size: 40px;
 }
-.page-1 h3 {
-        font-size: 20px;
-        width: 85%;
-        margin-left: 40px;
+
+.first-p {
+  font-size: 20px;
+  width: 85%;
+  margin-left: 40px;
 }
-.page-1 p {
-        margin-top: 30px;
-        width: 70%;
-        background-color: #d9d9d9;
-        padding: 15px 10px;
-        margin-left: 60px;
+
+.second-p {
+  margin-top: 30px;
+  width: 70%;
+  background-color: #d9d9d9;
+  padding: 15px 10px;
+  margin-left: 60px;
 }
+
 .page-1 button {
-            margin-top: 35px;
-            padding: 10px 25px;
-            background-color: white;
-            border-radius: 5px;
-            margin-left: 80px;
+  margin-top: 35px;
+  padding: 10px 25px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 80px;
 }
+
 .page-1 img {
-          border-radius: 10px;	
+  border-radius: 10px;
 }
+
 /* empieza el about*/
 section h2 {
-  font-size: 50px;
+  font-size: 45px;
   margin-top: 100px;
   padding-left: 20px;
   margin-bottom: 30px;
 }
-.productivity {	display: inline-block;
-      width: 48%;
+
+.productivity {
+  display: inline-block;
+  width: 48%;
 }
+
 .productivity img {
-          float: left;
-          padding-right: 20px;
+  float: left;
+  padding-right: 20px;
 }
+
 .productivity article {
-              padding: 20px;
+  padding: 20px;
 }
-.productivity h4 {
-        font-size: 20px;
-        padding: 10px;
+
+.productivity h3 {
+  font-size: 20px;
+  padding: 10px;
 }
-.work-traceability {display: inline-block;
-          width: 48%;
+
+.work-traceability {
+  display: inline-block;
+  width: 48%;
 }
+
 .work-traceability img {
-              float: left;
-              padding-right: 20px;
+  float: left;
+  padding-right: 20px;
 }
+
 .work-traceability article {
-                  padding: 20px;
+  padding: 20px;
 }
-.work-traceability h4 {
-              font-size: 20px;
-              padding: 10px;
+
+.work-traceability h3 {
+  font-size: 20px;
+  padding: 10px;
 }
-    /* empieza Functions*/
-section h2 {
-  font-size: 50px;
-  margin-top: 100px;
-  padding-left: 20px;
-  margin-bottom: 30px;
+
+/* empieza Functions*/
+
+.Record-of-hour {
+  display: inline-block;
+  width: 48%;
 }
-.Record-of-hour {	display: inline-block;
-      width: 48%;
-}
+
 .Record-of-hour img {
-          float: left;
-          padding-right: 20px;
+  float: left;
+  padding-right: 20px;
 }
+
 .Record-of-hour article {
-              padding: 20px;
+  padding: 20px;
 }
-.Record-of-hour h4 {
-        font-size: 20px;
-        padding: 10px;
+
+.Record-of-hour h3 {
+  font-size: 20px;
+  padding: 10px;
 }
-.Reports {display: inline-block;
-          width: 48%;
+
+.Reports {
+  display: inline-block;
+  width: 48%;
 }
+
 .Reports img {
-              float: left;
-              padding-right: 20px;
+  float: left;
+  padding-right: 20px;
 }
+
 .Reports article {
-                  padding: 20px;
+  padding: 20px;
 }
-.Reports h4 {
-              font-size: 20px;
-              padding: 10px;
+
+.Reports h3 {
+  font-size: 20px;
+  padding: 10px;
 }
-							/* empieza Formulario*/
-							
+
+/* empieza Formulario*/
+
 .h2-information {
-                font-size: 40px;
-                padding-top: 100px;
-                padding-left: 160px;
+  font-size: 40px;
+  padding-top: 100px;
+  padding-left: 160px;
 }
+
 form {
-    margin-top: 30px;
-    margin-left: 400px;
+  margin-top: 30px;
+  margin-left: 400px;
 }
+
 form div {
-        margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
 form label {
-                display: block;
-                padding-bottom: 8px;
+  display: block;
+  padding-bottom: 8px;
 }
+
 form input {
-          display: block;
+  display: block;
 }
+
 .long-bar {
-          width: 220px;
-          height: 20px;
+  width: 220px;
+  height: 20px;
 }
+
 .contact-area {
-              padding-left: 30px;
+  padding-left: 30px;
 }
+
 .contact-area input {
-                    display: inline-block;
-                    margin-top: 5px;
+  display: inline-block;
+  margin-top: 5px;
 }
+
 .buttom {
-        margin-left: 165px;
-        margin-top: 12px;
-        padding: 7px 20px;
-        border-radius: 5px rgb(255, 255, 255);
+  margin-left: 165px;
+  margin-top: 12px;
+  padding: 7px 20px;
+  border-radius: 5px rgb(255, 255, 255);
 }
-              /* empieza Our history*/
+
+/* empieza Our history*/
 .our-history h2 {
   margin-bottom: 0%;
 }
+
 .our-history h3 {
   font-size: 25px;
   padding-left: 22px;
 }
-.our-history > p {
+
+.our-history>p {
   display: inline-block;
   font-size: 19px;
   width: 30%;
@@ -225,8 +273,9 @@ form input {
   margin-left: 30px;
   margin-bottom: 220px;
 }
+
 .our-history div {
-  display: inline-block;
+
   width: 40%;
   margin-top: 60px;
   margin-left: 40px;
@@ -234,107 +283,128 @@ form input {
   float: right;
 
 }
+
 .right-p p {
-padding-top: 10px;
+  padding-top: 10px;
 }
-          /* empieza Products lists*/
+
+/* empieza Products lists*/
 .products h2 {
   background-color: #d9d9d9;
-  width: 200px;
+  width: 190px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 25px;
 }
+
 .products {
-display: inline-block;
-width: 40%;
-margin-left: 60px;
+  display: inline-block;
+  width: 40%;
+  margin-left: 60px;
 }
+
 .products p {
   width: 50%;
   margin-left: 10px
 }
+
 .products-lists {
-    display: inline-block;
-    background-color: #d9d9d9;
-    padding: 30px;
+  display: inline-block;
+  background-color: #d9d9d9;
+  padding: 30px;
 }
+
 .products-lists li {
-        display: inline-block;
-        padding-bottom: 40px;
+  display: inline-block;
+  padding-bottom: 40px;
 }
+
 #last-li {
-padding-bottom: 0px;
+  padding-bottom: 0px;
 }
-      /* empieza Business lists*/
+
+/* empieza Business lists*/
 .busisness h2 {
   background-color: #d9d9d9;
   width: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .busisness {
-display: inline-block;
-width: 40%;
-margin-left: 60px;
+  display: inline-block;
+  width: 40%;
+  margin-left: 60px;
 }
+
 .busisness p {
   width: 50%;
   margin-left: 10px
 }
+
 .busisness-list {
-    display: inline-block;
-    background-color: #d9d9d9;
-    padding: 30px;
-}
-.busisness-list li {
-        display: inline-block;
-        padding-bottom: 40px;
-        width: 120px;
-}
-#last-li {
-padding-bottom: 0px;
+  display: inline-block;
+  background-color: #d9d9d9;
+  padding: 30px;
 }
 
-      /* empieza Support lists*/
+.busisness-list li {
+  display: inline-block;
+  padding-bottom: 40px;
+  width: 120px;
+}
+
+#last-li {
+  padding-bottom: 0px;
+}
+
+/* empieza Support lists*/
 .support h2 {
   background-color: #d9d9d9;
   width: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .support {
-display: inline-block;
-width: 40%;
-margin-left: 60px;
+  display: inline-block;
+  width: 40%;
+  margin-left: 60px;
 }
+
 .support p {
   width: 50%;
   margin-left: 10px
 }
+
 .support-list {
-    display: inline-block;
-    background-color: #d9d9d9;
-    padding: 30px;
-    margin-bottom: 100px;
+  display: inline-block;
+  background-color: #d9d9d9;
+  padding: 30px;
+  margin-bottom: 100px;
 }
+
 .support-list li {
-        display: inline-block;
-        padding-bottom: 40px;
-        width: 120px;
+  display: inline-block;
+  padding-bottom: 40px;
+  width: 120px;
 }
+
 #last-li {
-padding-bottom: 0px;
+  padding-bottom: 0px;
 }
+
 footer {
   background-color: #d9d9d9;
   padding: 15px;
   position: fixed bottom;
   text-align: center;
 }
+
 footer i {
-    background-color: #a9a8a8;
-    margin-left: 15px;
-    margin-bottom: 5px;
-    padding: 5px;
-    border-radius: 50%;
+  background-color: #a9a8a8;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 50%;
 }
