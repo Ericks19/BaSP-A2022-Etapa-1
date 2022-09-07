@@ -35,7 +35,6 @@ a {
   padding-left: 30px;
 }
 
-/* empieza el sidebar */
 aside {
   display: inline-block;
   width: 250px;
@@ -77,8 +76,6 @@ main {
   margin-left: 300px;
 }
 
-
-/*empieza page 1*/
 .page-1 {
   width: 100%;
 }
@@ -122,7 +119,6 @@ main {
   border-radius: 10px;
 }
 
-/* empieza el about*/
 section h2 {
   font-size: 45px;
   margin-top: 100px;
@@ -168,8 +164,6 @@ section h2 {
   padding: 10px;
 }
 
-/* empieza Functions*/
-
 .Record-of-hour {
   display: inline-block;
   width: 48%;
@@ -207,8 +201,6 @@ section h2 {
   font-size: 20px;
   padding: 10px;
 }
-
-/* empieza Formulario*/
 
 .h2-information {
   font-size: 40px;
@@ -255,7 +247,6 @@ form input {
   border-radius: 5px rgb(255, 255, 255);
 }
 
-/* empieza Our history*/
 .our-history h2 {
   margin-bottom: 0%;
 }
@@ -288,7 +279,6 @@ form input {
   padding-top: 10px;
 }
 
-/* empieza Products lists*/
 .products h2 {
   background-color: #d9d9d9;
   width: 190px;
@@ -323,7 +313,6 @@ form input {
   padding-bottom: 0px;
 }
 
-/* empieza Business lists*/
 .busisness h2 {
   background-color: #d9d9d9;
   width: 200px;
@@ -358,7 +347,6 @@ form input {
   padding-bottom: 0px;
 }
 
-/* empieza Support lists*/
 .support h2 {
   background-color: #d9d9d9;
   width: 200px;
