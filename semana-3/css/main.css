@@ -1,0 +1,320 @@
+main {
+  margin-top: 70px;
+  margin-left: 300px;
+}
+
+.home {
+  width: 100%;
+}
+
+.home div {
+  width: 49%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.home h1 {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding-left: 50px;
+  font-size: 40px;
+}
+
+.home-first-p {
+  font-size: 20px;
+  width: 85%;
+  margin-left: 40px;
+}
+
+.home-second-p {
+  margin-top: 30px;
+  width: 70%;
+  background-color: #d9d9d9;
+  padding: 15px 10px;
+  margin-left: 60px;
+}
+
+.home button {
+  margin-top: 35px;
+  padding: 10px 25px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 80px;
+}
+
+.home img {
+  border-radius: 10px;
+  width: 370px;
+}
+
+section h2 {
+  font-size: 45px;
+  margin-top: 100px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.about-trackgenix img {
+  width: 100px; 
+}
+
+.productivity {
+  display: inline-block;
+  width: 48%;
+}
+
+.productivity img {
+  float: left;
+  padding-right: 20px;
+}
+
+.productivity article {
+  padding: 20px;
+}
+
+.productivity h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.work-traceability {
+  display: inline-block;
+  width: 48%;
+}
+
+.work-traceability img {
+  float: left;
+  padding-right: 20px;
+}
+
+.work-traceability article {
+  padding: 20px;
+}
+
+.work-traceability h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+.functions img {
+  width: 100px;
+}
+.record-of-hour {
+  display: inline-block;
+  width: 48%;
+}
+
+.record-of-hour img {
+  float: left;
+  padding-right: 20px;
+}
+
+.record-of-hour article {
+  padding: 20px;
+}
+
+.record-of-hour h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.reports {
+  display: inline-block;
+  width: 48%;
+}
+
+.reports img {
+  float: left;
+  padding-right: 20px;
+}
+
+.reports article {
+  padding: 20px;
+}
+
+.reports h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.h2-information {
+  font-size: 40px;
+  padding-top: 100px;
+  padding-left: 160px;
+}
+
+form {
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  padding-bottom: 8px;
+}
+
+form input {
+  display: block;
+}
+
+.long-bar {
+  width: 220px;
+  height: 20px;
+}
+
+.contact-area {
+  padding-left: 30px;
+}
+
+.contact-area input {
+  display: inline-block;
+  margin-top: 5px;
+}
+.contact-area label {
+  display: inline-block;
+  
+}
+
+.buttom {
+  margin-left: 165px;
+  margin-top: 12px;
+  padding: 7px 20px;
+  border-radius: 5px rgb(255, 255, 255);
+}
+
+.our-history h2 {
+  margin-bottom: 0%;
+}
+
+.our-history h3 {
+  font-size: 25px;
+  padding-left: 22px;
+}
+
+.our-history>p {
+  display: inline-block;
+  font-size: 19px;
+  width: 30%;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-bottom: 220px;
+}
+
+.our-history div {
+
+  width: 40%;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 100px;
+  float: right;
+
+}
+
+.our-history-right-p p {
+  padding-top: 10px;
+}
+
+.products h2 {
+  background-color: #d9d9d9;
+  width: 190px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.products {
+  display: inline-block;
+  width: 40%;
+  margin-left: 60px;
+}
+
+.products p {
+  width: 50%;
+  margin-left: 10px
+}
+
+.products-lists {
+  display: inline-block;
+  background-color: #d9d9d9;
+  padding: 30px;
+}
+
+.products-lists li {
+  display: inline-block;
+  padding-bottom: 40px;
+}
+
+#last-li {
+  padding-bottom: 0px;
+}
+
+.busisness h2 {
+  background-color: #d9d9d9;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.busisness {
+  display: inline-block;
+  width: 40%;
+  margin-left: 60px;
+}
+
+.busisness p {
+  width: 50%;
+  margin-left: 10px
+}
+
+.busisness-list {
+  display: inline-block;
+  background-color: #d9d9d9;
+  padding: 30px;
+}
+
+.busisness-list li {
+  display: inline-block;
+  padding-bottom: 40px;
+  width: 120px;
+}
+
+#last-li {
+  padding-bottom: 0px;
+}
+
+.support h2 {
+  background-color: #d9d9d9;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.support {
+  display: inline-block;
+  width: 40%;
+  margin-left: 60px;
+}
+
+.support p {
+  width: 50%;
+  margin-left: 10px
+}
+
+.support-list {
+  display: inline-block;
+  background-color: #d9d9d9;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.support-list li {
+  display: inline-block;
+  padding-bottom: 40px;
+  width: 120px;
+}
+
+#last-li {
+  padding-bottom: 0px;
+}
