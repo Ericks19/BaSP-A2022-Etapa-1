@@ -60,87 +60,106 @@ section h2 {
   margin-bottom: 30px;
 }
 
+
+.about-trackgenix {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
 .about-trackgenix img {
-  width: 100px; 
+  display: none;
+  padding-right: 10px;
 }
 
-.productivity {
-  display: inline-block;
-  width: 48%;
+/* 
+.about-trackgenix {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  
+} */
+.about-trackgenix div {
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+.about-trackgenix div article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.productivity img {
-  float: left;
-  padding-right: 20px;
-}
-
-.productivity article {
-  padding: 20px;
-}
 
 .productivity h3 {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  /* padding: 10px; */
+}
+.productivity p {
+  line-height: 25px;
+  margin-bottom: 30px;
 }
 
-.work-traceability {
-  display: inline-block;
-  width: 48%;
-}
-
-.work-traceability img {
-  float: left;
-  padding-right: 20px;
-}
-
-.work-traceability article {
-  padding: 20px;
+.work-traceability p {
+  line-height: 25px;
+  margin-bottom: 30px;
 }
 
 .work-traceability h3 {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  /* padding: 10px; */
+}
+
+
+
+
+
+.functions{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.functions div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.functions div article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 .functions img {
-  width: 100px;
-}
-.record-of-hour {
-  display: inline-block;
-  width: 48%;
-}
-
-.record-of-hour img {
-  float: left;
-  padding-right: 20px;
-}
-
-.record-of-hour article {
-  padding: 20px;
+  display: none;
+  padding-right: 10px;
 }
 
 .record-of-hour h3 {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 25px;
+  /* padding: 10px; */
 }
-
-.reports {
-  display: inline-block;
-  width: 48%;
-}
-
-.reports img {
-  float: left;
-  padding-right: 20px;
-}
-
-.reports article {
-  padding: 20px;
+.record-of-hour p {
+  line-height: 25px;
+  margin-bottom: 30px;
 }
 
 .reports h3 {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 25px;
+  /* padding: 10px; */
 }
+.reports p {
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
 
 .h2-information {
   font-size: 40px;
