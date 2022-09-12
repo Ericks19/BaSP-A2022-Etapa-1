@@ -12,20 +12,37 @@ header {
 a {
   text-decoration: none;
 }
-
-.header-nav a {
-  padding-left: 50px;
+.header-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-nav i {
-  padding-left: 30px;
+  padding-left: 10px;
 }
-
 .header-div {
-  display: inline-block;
-  padding-left: 500px;
+  display: none;
 }
 
-.header-div a {
-  padding-left: 30px;
+.header-nav a {
+  padding-right: 20px;
 }
+.header-div a {
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-div {
+    display: flex;
+  }
+  .trackgenix-nav {
+    display: none;
+  }
+  }
+
+  @media screen and (min-width: 1024px) {
+  .trackgenix-nav {
+    display: flex;
+  }
+
+  }

@@ -15,6 +15,6 @@ By Erick Sequeira
 ## week-03
 We are now giving the style of our html code using also flexbox and we are making our landing page responsive
 
-To see the proyect you must open file "semana-3" and then open "index.html"
+To see the proyect you can follow this link https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-3/index.html
 
 By Erick Sequeira
