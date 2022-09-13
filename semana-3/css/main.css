@@ -61,10 +61,20 @@ section h2 {
 }
 
 
+                                            /* EMPIEZA ABOUT TRACKGENIX */
+
+.about-section {
+  /* display: flex;
+  flex-direction: column; */
+  width: 90%;
+  margin: auto;
+}
+
+
 .about-trackgenix {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  /* width: 90%; */
   margin: auto;
 }
 
@@ -106,12 +116,16 @@ section h2 {
 
 
 
-
+                                      /* EMPIEZA FUNCTIONSSS */
+.functions-section {
+  width: 90%;
+  margin: auto;
+}
 
 .functions{
   display: flex;
   flex-direction: column;
-  width: 90%;
+  /* width: 90%; */
   margin: auto;
 }
 .functions div {
@@ -230,19 +244,19 @@ section h2 {
   font-size: 25px;
   }
 
-.our-history>p {
+.history-first-p {
   font-size: 19px;
   line-height: 25px;
-  margin-top: 20px;
+  margin-top: 0px;
   }
 
 .our-history div {
   margin-top: 20px;
   }
 
-.our-history-right-p p {
+/* .our-history-right-p p {
   padding-top: 10px;
-  } 
+  }  */
 
 
 
@@ -272,38 +286,29 @@ section h2 {
                               /*EMPIEZA PRODUCTSSSSSSSS*/
 
 .products-products-lists{
-  width: 90%;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  align-items: center; 
   justify-content: center;
+  width: 90%;
+  margin: auto;
   }
-.products h2 {
+/* .products h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #d9d9d9; */
-  /* width: 190px; */
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-  /* padding-left: 100px; */
-  }
+
+  } */
 
 .products {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* display: inline-block;
-  width: 40%;
-  margin-left: 60px; */
-
   }
-  /* .busisness {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  } */
-
+.products h2 {
+  width: 200px;
+  padding-top: 10px;
+}
 
 .products p {
   width: 70%;
@@ -312,16 +317,13 @@ section h2 {
   }
 
 .products-lists {
-  /* display: inline-block; */
-  /* background-color: #d9d9d9; */
-  margin-top: 30px;
-  padding: 30px;
-  align-self: center;
+  margin-top: 50px;
   }
 
 .products-lists li {
   display: inline-block;
   padding-bottom: 40px;
+  width: auto;
   }
 
 #last-li {
@@ -330,9 +332,9 @@ section h2 {
 
 
 
-  /*empieza buisness*/
+                                  /*empieza buisness*/
 
-.buisness-buisness-list {
+.busisness-busisness-list {
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -346,37 +348,25 @@ section h2 {
   flex-direction: column;
   align-items: center;
   }
-.busisness h2 {
-  /* background-color: #d9d9d9; */
-  width: 200px;
-  padding-top: 10px;
-  }
+
 .busisness p {
   width: 70%;
   line-height: 20px;
   }
-  /* .busisness {
-  display: inline-block;
-  width: 40%;
-  margin-left: 60px;
-  } */
 
-  /* .busisness p {
-  width: 50%;
-  margin-left: 10px
-  } */
+.busisness h2 {
+  width: 200px;
+  padding-top: 10px;
+  }
 
 .busisness-list {
-  /* display: inline-block;
-  background-color: #d9d9d9;
-  padding: 30px;  */
   margin-top: 50px;
   }
 
 .busisness-list li {
   display: inline-block;
   padding-bottom: 40px;
-  width: 120px;
+  width: auto;
   }
 
 #last-li {
@@ -386,52 +376,37 @@ section h2 {
                               /*EMPIEZAA SUPPORT*/
 
 .support-suport-list {
-  width: 90%;
-  margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
+  justify-content: center;
+  width: 90%;
+  margin: auto;
   }
 .support {
   display: flex;
   flex-direction: column;
   align-items: center;
   }
+
 .support p {
-  width: 60%;
+  width: 70%;
   line-height: 20px;
   }
 
 .support h2 {
-  /* background-color: #d9d9d9; */
   width: 200px;
   padding-top: 10px;
-  padding-bottom: 10px;
   }
 
-  /* .support {
-  display: inline-block;
-  width: 40%;
-  margin-left: 60px;
-  } */
-
-  /* .support p {
-  width: 50%;
-  margin-left: 10px
-  } */
-
 .support-list {
-  /* display: inline-block;
-  background-color: #d9d9d9;
-  padding: 30px; */
-  margin-bottom: 100px;
   margin-top: 50px;
   }
 
 .support-list li {
   display: inline-block;
   padding-bottom: 40px;
-  width: 120px;
+  width: auto;
   }
 
 #last-li {
@@ -466,6 +441,45 @@ section h2 {
         }
         
         main {
-          margin-left: 270px;
+          margin-left: 300px;
         }
+      /* OUR HISTORY */
+        .paragraphs {
+          display: flex;
+        }
+      /* PRODUCTS AND SERVICE*/
+      .products-and-services {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 93%;
+        justify-content: flex-start;
       }
+      .products-and-services p {
+        width: 100%;
+      }
+      /* PRODUCTS BUSISSNES SUPPORT */
+
+
+      .products-busissnes-support {
+        display: flex;
+        flex-direction: row;
+      }
+      
+
+      /*ABOUT TRACKGENIX*/ 
+      .about-section {
+        width: 100%;
+      }
+      .about-trackgenix{
+        flex-direction: row;
+        width: 100%;
+      }
+        /*FUNCTIONS*/
+        .functions-section{
+          width: 100%;
+        }
+        .functions {
+          flex-direction: row;
+          width: 100%;
+        }
+     }
