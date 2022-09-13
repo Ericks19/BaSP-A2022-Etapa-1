@@ -19,20 +19,29 @@ a {
 
 .header-nav i {
   padding-left: 10px;
+  padding-right: 20px;
 }
-.header-div {
+.header-div-1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.header-div-2 {
   display: none;
 }
 
 .header-nav a {
   padding-right: 20px;
 }
-.header-div a {
+.header-div-2 a {
   padding-right: 30px;
 }
 
 @media screen and (min-width: 768px) {
-  .header-div {
+  .header-div-1 {
+    width: auto;
+  }
+  .header-div-2 {
     display: flex;
   }
   .trackgenix-nav {
@@ -44,5 +53,11 @@ a {
   .trackgenix-nav {
     display: flex;
   }
+  .header-div-1 {
+    display:flex;
+    
+
+  }
+
 
   }

@@ -68,31 +68,21 @@ section h2 {
   margin: auto;
 }
 
-.about-trackgenix img {
-  display: none;
-  padding-right: 10px;
-}
-
-/* 
-.about-trackgenix {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  
-} */
 .about-trackgenix div {
   display: flex;
   flex-wrap: wrap;
-  
-
 }
+
 .about-trackgenix div article {
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
 
-
+.about-trackgenix img {
+  display: none;
+  padding-right: 10px;
+}
 .productivity h3 {
   font-size: 25px;
   margin-bottom: 10px;
@@ -238,27 +228,16 @@ section h2 {
 
 .our-history h3 {
   font-size: 25px;
-  /* padding-left: 22px; */
   }
 
 .our-history>p {
-  /* display: inline-block; */
   font-size: 19px;
   line-height: 25px;
-  /* width: 30%; */
   margin-top: 20px;
-  /* margin-left: 30px; */
-  /* margin-bottom: 220px; */
   }
 
 .our-history div {
-
-  /* width: 40%; */
   margin-top: 20px;
-  /* margin-left: 40px;
-  margin-right: 100px;
-  float: right; */
-
   }
 
 .our-history-right-p p {
@@ -472,4 +451,21 @@ section h2 {
       }
 
 
+      }
+
+
+      @media screen and (min-width: 1024px){
+        .home {
+          justify-content: space-around;
+        }
+        .home img {
+          max-width: 50%;
+        }
+        .home div {
+          max-width: 50%;
+        }
+        
+        main {
+          margin-left: 270px;
+        }
       }
