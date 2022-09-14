@@ -1,12 +1,12 @@
 header {
-  box-sizing: border-box;
-  height: 70px;
   position: fixed;
-  top: 0;
-  background-color: #d9d9d9;
-  padding: 25px;
   width: 100%;
+  height: 70px;
+  top: 0;
+  padding: 25px;
+  background-color: #d9d9d9;
   border-bottom: solid 1.5px;
+  box-sizing: border-box;
 }
 
 a {
@@ -23,8 +23,8 @@ a {
 }
 .header-div-1 {
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  width: 100%;
 }
 .header-div-2 {
   display: none;

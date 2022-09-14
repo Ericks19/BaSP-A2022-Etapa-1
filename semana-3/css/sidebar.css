@@ -1,10 +1,10 @@
 aside {
+  position: fixed;
   display: none;
   width: 250px;
-  background-color: #d9d9d9;
   padding-left: 30px;
-  position: fixed;
   height: 100%;
+  background-color: #d9d9d9;
 }
 
 aside input {
@@ -13,9 +13,9 @@ aside input {
 }
 
 aside span {
+  display: block;
   margin-top: 50px;
   border-bottom: solid 1.3px;
-  display: block;
 }
 
 .a-navbar div {
@@ -29,9 +29,9 @@ aside span {
 
 .info-sidebar p {
   display: inline-block;
+  width: 80%;
   padding-left: 20px;
   padding-top: 15px;
-  width: 80%;
 }
 
 @media screen and (min-width: 1024px){
