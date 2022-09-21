@@ -1,8 +1,8 @@
-console.log("EXERCISE-2 strings");
+console.log('EXERCISE-2 strings');
 /*a. Crear una variable de tipo string con al menos 10 caracteres y 
 convertir todo el texto en mayúscula (utilizar toUpperCase).*/
 
-console.log("-Exercise 2.a:");
+console.log('-Exercise 2.a:');
 var stringWhithAtLeast10characters1 =
   "esto es una variable de almenos 10 caracteres";
 console.log(stringWhithAtLeast10characters1.toUpperCase());
@@ -11,7 +11,7 @@ console.log(stringWhithAtLeast10characters1.toUpperCase());
 string con los primeros 5 caracteres guardando el resultado en una nueva variable 
 (utilizar substring).*/
 
-console.log("-Exercise 2.b:");
+console.log('-Exercise 2.b:');
 var stringWhithAtLeast10characters2 =
   "esto es otra variable de almenos 10 caracteres";
 var firstFivecharacters = stringWhithAtLeast10characters2.substring(0, 5);
@@ -22,9 +22,9 @@ console.log(firstFivecharacters);
  string con los últimos 3 caracteres guardando el resultado en una nueva variable
   (utilizar substring).*/
 
-console.log("-Exercise 2.c:");
+console.log('-Exercise 2.c:');
 var stringWhithAtLeast10characters3 =
-  "esto es otra variable 2 de almenos 10 caracteres";
+  'esto es otra variable 2 de almenos 10 caracteres';
 var last3characters = stringWhithAtLeast10characters3.substring(45, 100);
 
 console.log(last3characters);
@@ -34,9 +34,9 @@ console.log(last3characters);
   Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, 
     toLowerCase y el operador +).*/
 
-console.log("-Exercise 2.d:");
+console.log('-Exercise 2.d:');
 var stringWhithAtLeast10characters4 =
-  "esto es otra Variabe 3 de Almenos 10 Caracteres";
+  'esto es otra Variabe 3 de Almenos 10 Caracteres';
 var firstCharacter = stringWhithAtLeast10characters4.substring(0, 1);
 var firstCharacter = firstCharacter.toUpperCase();
 var restCharacters = stringWhithAtLeast10characters4.substring(1, 100);
@@ -48,7 +48,7 @@ console.log(exerciseD);
      en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una
       variable (utilizar indexOf).*/
 
-console.log("-Exercise 2.e:");
+console.log('-Exercise 2.e:');
 var stringWhithAtLeast10characters5 = "vamos a cambiar un poco el texto";
 var exerciseE = stringWhithAtLeast10characters5.indexOf(" ");
 console.log(exerciseE);
@@ -59,8 +59,8 @@ console.log(exerciseE);
       de ambas palabras en mayúscula y las demás letras en minúscula (utilizar indexOf,
       substring, toUpperCase, toLowerCase y el operador +).*/
       
-console.log("-Exercise 2.f:");
-var stringWhithAtLeast10characters6 = "eleCtRodomEsTicO onoMaTopEyA";
+console.log('-Exercise 2.f:');
+var stringWhithAtLeast10characters6 = 'eleCtRodomEsTicO onoMaTopEyA';
 
 var firstCharacterWord2 = stringWhithAtLeast10characters6
   .substring(17, 18)

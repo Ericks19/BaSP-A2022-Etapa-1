@@ -12,9 +12,9 @@ console.log ('EXERCISE-1 variables and operators' )
  /* b. Crear dos variables de tipo String
   y concatenarlas guardando el resultado en una 3er variable.*/
   console.log('-Exercise 1.b:')
-  var string1 = "hola como estas";
-  var string2 = "bien gracias";
-  var string1PlusString2 = string1 + " " + string2;
+  var string1 = 'hola como estas';
+  var string2 = 'bien gracias';
+  var string1PlusString2 = string1 + ' ' + string2;
 
   console.log(string1PlusString2);
 
@@ -22,8 +22,8 @@ console.log ('EXERCISE-1 variables and operators' )
   (cantidad de letras del string) guardando el resultado de la suma en 
   una 3er variable (utilizar length).*/
   console.log('-Exercise 1.c:')
-  var anotherString1 = "nose que poner";
-  var anotherString2 = "no tengo mucha imaginacion hoy";
+  var anotherString1 = 'nose que poner';
+  var anotherString2 = 'no tengo mucha imaginacion hoy';
   var largeString1PlusString2 = anotherString1.length + anotherString2.length;
 
   console.log(largeString1PlusString2)
