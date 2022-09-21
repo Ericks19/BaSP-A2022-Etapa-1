@@ -11,12 +11,12 @@ main {
   margin: auto;
 }
 
-.home div {
+/* .home div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-basis: 600px;
-}
+} */
 
 .home img {
   flex-grow: 0.5;
@@ -68,10 +68,10 @@ section h2 {
   margin: auto;
 }
 
-.about-trackgenix div {
+/* .about-trackgenix div {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .about-trackgenix div article {
   display: flex;
@@ -115,10 +115,10 @@ section h2 {
   margin: auto;
 }
 
-.functions div {
+/* .functions div {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .functions div article {
   display: flex;
@@ -161,6 +161,8 @@ section h2 {
 
 .h2-information {
   font-size: 40px;
+  padding-left: 10%;
+  padding-top: 10%;
 }
 
 form {
@@ -286,12 +288,12 @@ form input {
 }
 
 .products-lists li {
-  display: inline-block;
+  /* display: inline-block; */
   width: auto;
   padding-bottom: 40px;
 }
 
-#last-li {
+#last-li-products {
   padding-bottom: 0px;
 }
 
@@ -325,12 +327,12 @@ form input {
 }
 
 .busisness-list li {
-  display: inline-block;
+  /* display: inline-block; */
   width: auto;
   padding-bottom: 40px;
 }
 
-#last-li {
+#last-li-busisness {
   padding-bottom: 0px;
 }
 
@@ -364,23 +366,23 @@ form input {
 }
 
 .support-list li {
-  display: inline-block;
+  /* display: inline-block; */
   width: auto;
   padding-bottom: 40px;
 }
 
-#last-li {
+#last-li-support {
   padding-bottom: 0px;
 }
 
 @media screen and (min-width: 768px) {
   .about-trackgenix img {
-    display: inline-block;
+    display: flex;
     width: 100px;
   }
 
   .functions img {
-    display: inline-block;
+    display: flex;
     width: 100px;
   }
 
