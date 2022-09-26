@@ -1,0 +1,31 @@
+
+#container-form{
+  display: flex;
+ 
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: aqua;
+  width:50%;
+  margin: auto;
+  
+}
+
+#form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding: 10%;
+  margin: auto;
+}
+.border-green {
+  border: 2px solid green;
+}
+
+.border-red {
+  border: 2px solid red;
+} 
+
+body {
+  background-color: #373867;;
+}
