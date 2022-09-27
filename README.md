@@ -20,7 +20,7 @@ To see the proyect you can follow this link https://ericks19.github.io/BaSP-A202
 By Erick Sequeira
 # week-04 
 We are working in some javacripts exercise and doing some css corrections
-```
+
 To see the javascript work follow this link:
 ```
 https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-4/index.html
@@ -30,3 +30,19 @@ To see the css work follow this link:
 https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-3/index.html
 ```
 By Erick Sequeira
+
+# week-06 
+We are making 2 different forms and giving them interaction using javascript.
+
+You can see the log in form by follow this link:
+```
+https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-06/views/login.html
+```
+And you can see the sign up form by follow this link:
+```
+https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-06/views/login.html
+```
+You can also nav through the home and use the forms
+```
+https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-06/views/index.html
+```

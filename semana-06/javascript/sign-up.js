@@ -4,18 +4,18 @@ window.onload = function () {
   var alphabet = ["q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","ñ","z","x","c","v","b","n","m"];
 
   //inputs
-  var firstName = document.querySelector ("#first-name")
-  var lastName = document.querySelector ("#last-name")
-  var dni = document.querySelector ("#dni")
-  var bithdate = document.querySelector ("#bithdate")
-  var phone =  document.querySelector ("#phone")
-  var address =  document.querySelector ("#address")
-  var locality =  document.querySelector ("#locality")
-  var zipcode =  document.querySelector ("#zipcode")
-  var email =  document.querySelector ("#email")
-  var password =  document.querySelector ("#password")
-  var password2 =  document.querySelector ("#password2")
-
+  var firstName = document.querySelector ("#first-name");
+  var lastName = document.querySelector ("#last-name");
+  var dni = document.querySelector ("#dni");
+  var bithdate = document.querySelector ("#bithdate"); 
+  var phone =  document.querySelector ("#phone");
+  var address =  document.querySelector ("#address");
+  var locality =  document.querySelector ("#locality");
+  var zipcode =  document.querySelector ("#zipcode");
+  var email =  document.querySelector ("#email");
+  var password =  document.querySelector ("#password");
+  var password2 =  document.querySelector ("#password2");
+  var button = document.querySelector ("#button");
   //...
 
   //si el valueToTest solo tiene números
@@ -220,9 +220,34 @@ window.onload = function () {
   })
 
 
+  /*Se debe agregar un botón “Login” que al presionarlo se muestre un cartel emergente con la información cargada en el
+   formulario en caso de que haya pasado todas las validaciones. Si alguna validación no pasó, además de mostrar el error
+    debajo del campo, también se debe mostrar el error en el cartel emergente.*/
+    /*1 agregar evento onclick; 2 tengo que hacer un if / else
+    If: Si pasa las validaciones osea si todos los campos son true me tiene que devolver el valor de todos los campos en un alert
+    Solucion: comparar si todo los valores de los campos son true  entonces return todo los valores en un string 
+    Else:
+ */
+console.log(button);
+    button.addEventListener("click", function(e){
+        e.preventDefault();
+        if (firstName && lastName && dni && bithdate && phone &&
+            address && locality && zipcode && email && password && password2){
+          alert ("esta todo bien")   
+        }else {
+          alert("hubo un problema")
+        }
+      
+      })
+      
+}  
 
 
 
 
 
-}
+
+
+
+
+ 
