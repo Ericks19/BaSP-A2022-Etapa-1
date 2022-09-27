@@ -40,7 +40,7 @@ https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-06/views/login.html
 ```
 And you can see the sign up form by follow this link:
 ```
-https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-06/views/login.html
+https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-06/views/sign-up.html
 ```
 You can also nav through the home and use the forms
 ```
