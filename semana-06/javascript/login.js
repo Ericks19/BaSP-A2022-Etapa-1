@@ -38,7 +38,6 @@ window.onload = function () {
      } 
     
     } 
-    // devuelve valor true o false
     return hasLetters
   }
 
@@ -55,7 +54,6 @@ window.onload = function () {
   emailInput.classList.remove("border-green", "border-red");
   }
 
-// Password
 password.addEventListener ("blur", function(){
 var passwordHasNumber = verifyIfPasswordHasNumber(password.value);
 var passwordHasLetters = verifyIfPasswordHasLetters (password.value);
@@ -73,16 +71,6 @@ password.onfocus = function () {
   password.classList.remove("border-green", "border-red");
   }
 
-//boton
- /*Se debe agregar un botón “Login” que al presionarlo se muestre un cartel emergente con la información cargada en el
-   formulario en caso de que haya pasado todas las validaciones. Si alguna validación no pasó, además de mostrar el error
-    debajo del campo, también se debe mostrar el error en el cartel emergente.*/
-    /*1 agregar evento onclick; 2 tengo que hacer un if / else
-    If: Si pasa las validaciones osea si todos los campos son true me tiene que devolver el valor de todos los campos en un alert
-    Solucion: comparar si todo los valores de los campos son true  entonces return todo los valores en un string 
-    Else:
- */
-
 logInButton.addEventListener("click", function(e){
   e.preventDefault();
   if (emailValid && passwordValid){
@@ -92,27 +80,6 @@ logInButton.addEventListener("click", function(e){
   }
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
