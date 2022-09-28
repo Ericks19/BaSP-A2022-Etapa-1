@@ -74,9 +74,9 @@ password.onfocus = function () {
 logInButton.addEventListener("click", function(e){
   e.preventDefault();
   if (emailValid && passwordValid){
-    alert ("esta todo bien")   
+    alert ("Everything is fine")   
   }else {
-    alert("hubo un problema")
+    alert("There is a problem whit your email or password")
   }
 
 })

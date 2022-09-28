@@ -141,7 +141,7 @@ window.onload = function () {
           phone.classList.add("border-red")
       }
   })
-.
+
   locality.addEventListener('blur', function() {
       locality.classList.remove("border-green", "border-red")
       if(hasLetters(locality.value) && hasNumbers(locality.value) && locality.value.length > 3) {
@@ -195,18 +195,6 @@ window.onload = function () {
           password2.classList.add("border-red")
       }
   })
-
-console.log(button);
-    button.addEventListener("click", function(e){
-        e.preventDefault();
-        if (firstName && lastName && dni && bithdate && phone &&
-            address && locality && zipcode && email && password && password2){
-          alert ("esta todo bien")   
-        }else {
-          alert("hubo un problema")
-        }
-      
-      })
       
 }  
 
