@@ -1,0 +1,56 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  padding: 25px;
+  background-color: #d9d9d9;
+  border-bottom: solid 1.5px;
+  box-sizing: border-box;
+}
+ 
+a {
+  text-decoration: none;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav i {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.header-div-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-div-2 {
+  display: none;
+}
+
+.header-nav a {
+  padding-right: 20px;
+}
+.header-div-2 a {
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-div-1 {
+    width: auto;
+  }
+  .header-div-2 {
+    display: flex;
+  }
+  .trackgenix-nav {
+    display: none;
+  }
+  }
+
+  @media screen and (min-width: 1024px) {
+  .trackgenix-nav {
+    display: flex;
+  }
+  }
