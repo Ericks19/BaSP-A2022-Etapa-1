@@ -139,7 +139,7 @@ function login(){
   })
   .then(function(response){
     if(response.success == true){
-      alert(response.msg + response.error);
+      alert(response.msg);
     }else {
       throw new Error ('Could not log in');
     }
