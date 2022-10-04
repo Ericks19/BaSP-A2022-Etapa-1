@@ -28,6 +28,9 @@ window.onload = function () {
   fieldset[0].appendChild(errorEmail);
   fieldset[1].appendChild(errorPassword);
 
+
+
+
   function verifyIfPasswordHasNumber (passwordInput){
     for (var i = 0; i < numbers.length; i++) {
       for (var j = 0; j < passwordInput.length; j++){
@@ -110,7 +113,8 @@ passwordInput.onfocus = function () {
 logInButton.addEventListener("click", function(e){
   e.preventDefault();
   if ( hasValidEmail(emailInput.value) && hasValidPassword(passwordInput.value)){
-    alert (emailInput.value + ', ' + passwordInput.value);  
+    alert (emailInput.value + ', ' + passwordInput.value);
+    login();  
   }else if (!hasValidEmail(emailInput.value) && hasValidPassword(passwordInput.value)){
     alert (errorEmail.innerText = 'Email is not valid');
   }else if (hasValidEmail(emailInput.value) && !hasValidPassword (passwordInput.value)){
@@ -124,6 +128,32 @@ logInButton.addEventListener("click", function(e){
 registerButton.addEventListener ('click', function(e){
   e.preventDefault();
 })
+
+var url = 'https://basp-m2022-api-rest-server.herokuapp.com/login';
+
+function login(){
+  var urlParams = '?email=' + emailInput.value + '&password=' + passwordInput.value;
+  fetch(url + urlParams)
+  .then(function(responseJson){
+    return responseJson.json();
+  })
+  .then(function(response){
+    if(response.success == true){
+      alert(response.msg + response.error);
+    }else {
+      throw new Error ('Could not log in');
+    }
+  })
+  .catch(function(error){
+    alert(error);
+  })
+}
+
+
+
+
+
+
 
 
 
