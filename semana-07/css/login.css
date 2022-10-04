@@ -1,21 +1,31 @@
 body {
   background-color: #373867;;
 }
-h2, h3, .text-container p {
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+
+}
+.text-container h2, h3 {
   display: flex;
   flex-direction: column;
   color: white;
   margin-top: 10px;
 }
 
-.container-sign {
-  display: flex;
-  align-self: flex-start;
+.text-container h2{
+font-size: 30px;
 }
-.container-sign a{
-  font-size: 12px;
-  margin: 4px;
-}
+
+.text-container h3{
+  font-size: 18px;
+  }
+.text-container p{
+  color: white;
+  }
 
 .form-container{
   display: flex;
@@ -31,16 +41,28 @@ h2, h3, .text-container p {
 .form-container label {
   font-size: 11px;
 }
-input, button {
-  width: 80%;
+fieldset {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+fieldset label {
+  align-self: flex-start;
 }
 
-.big-container {
+.container-sign {
   display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin: auto;
+  align-self: flex-start;
+}
+.container-sign a{
+  font-size: 12px;
+  margin: 4px;
+}
 
+
+input, button {
+  width: 100%;
 }
 
 .text-container {
@@ -53,11 +75,12 @@ input, button {
 #form-login {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 50%;
+  align-items: center;
+  width: 80%;
   padding: 10%;
   margin: auto;
 }
+
 .border-green {
   border: 2px solid green;
 }
@@ -74,9 +97,10 @@ input, button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 90%;
   }
   .form-container {
-    width: 50%;
+    width: 40%;
   }
   .text-container {
     width: 50%;

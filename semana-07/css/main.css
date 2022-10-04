@@ -8,15 +8,8 @@ main {
   align-items: center;
   flex-wrap: wrap-reverse;
   width: 90%;
-  margin: auto;
+  margin:auto;
 }
-
-/* .home div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-basis: 600px;
-} */
 
 .home img {
   flex-grow: 0.5;
@@ -68,11 +61,6 @@ section h2 {
   margin: auto;
 }
 
-/* .about-trackgenix div {
-  display: flex;
-  flex-wrap: wrap;
-} */
-
 .about-trackgenix div article {
   display: flex;
   justify-content: center;
@@ -114,11 +102,6 @@ section h2 {
   flex-direction: column;
   margin: auto;
 }
-
-/* .functions div {
-  display: flex;
-  flex-wrap: wrap;
-} */
 
 .functions div article {
   display: flex;
@@ -288,7 +271,6 @@ form input {
 }
 
 .products-lists li {
-  /* display: inline-block; */
   width: auto;
   padding-bottom: 40px;
 }
@@ -327,7 +309,6 @@ form input {
 }
 
 .busisness-list li {
-  /* display: inline-block; */
   width: auto;
   padding-bottom: 40px;
 }

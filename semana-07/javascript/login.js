@@ -13,11 +13,9 @@ window.onload = function () {
   var alphabet = ["q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","ñ","z","x","c","v","b","n","m"];
   var numbers = ["0","1","2","3","4","5","6","7","8","9"];
 
-
   var fieldset = document.getElementsByTagName ('fieldset');
   var errorEmail = document.createElement('p');
   var errorPassword = document.createElement('p');
-
 
   errorEmail.innerHTML = '';
   errorPassword.innerHTML = '';
@@ -37,14 +35,12 @@ window.onload = function () {
         if (hasNumber === false) {
           if (numbers [i]=== passwordInput [j]){
             hasNumber = true;
-  
           }else {
             hasNumber = false;
           }
         }
-     } 
-    
-    } 
+     }
+    }
     return hasNumber;
   }
 
@@ -54,9 +50,8 @@ window.onload = function () {
         if (hasLetters === false) {
           hasLetters = alphabet[i] === passwordInput [j];
         };
-     } 
-    
-    } 
+     }
+    }
     return hasLetters;
   }
 
@@ -66,7 +61,7 @@ window.onload = function () {
         return true;
     }
     return false;
-}
+  }
 
 function hasValidPassword(passwordInput){
   if(verifyIfPasswordHasNumber(passwordInput) && verifyIfPasswordHasLetters(passwordInput)){
@@ -83,11 +78,10 @@ function hasValidPassword(passwordInput){
   } else {
       emailInput.classList.add("border-red");
       errorEmail.innerText = 'Email is not valid';
-      
       emailValid = false;
   }
-  
-});
+  });
+
   emailInput.onfocus = function () {
   emailInput.classList.remove("border-green", "border-red");
   errorEmail.innerHTML = '';
@@ -96,15 +90,15 @@ function hasValidPassword(passwordInput){
   passwordInput.addEventListener ("blur", function(){
   if (hasValidPassword(passwordInput.value)){
     passwordInput.classList.add("border-green");
-      passwordValid = true;  
-  } else {
+      passwordValid = true;
+  }else {
     passwordInput.classList.add("border-red");
       errorPassword.innerText = 'Password is not valid';
       passwordValid = false;
-      } 
+      }
   hasLetters = false;
   hasNumber = false;
-})
+});
 passwordInput.onfocus = function () {
   passwordInput.classList.remove("border-green", "border-red");
   errorPassword.innerHTML = '';
@@ -123,7 +117,7 @@ logInButton.addEventListener("click", function(e){
   }else {
     alert('Email is not valid' +  ' ' + 'Password is not valid');
   }
-  
+
 })
 registerButton.addEventListener ('click', function(e){
   e.preventDefault();
@@ -146,7 +140,7 @@ function login(){
   })
   .catch(function(error){
     alert(error);
-  })
+  });
 }
 
 

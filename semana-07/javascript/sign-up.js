@@ -2,12 +2,12 @@ window.onload = function () {
 
   var numbers = ["0","1","2","3","4","5","6","7","8","9"];
   var alphabet = ["q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","ñ","z","x","c","v","b","n","m"];
-  
-  var fieldset = document.getElementsByTagName("fieldset");  
+
+  var fieldset = document.getElementsByTagName("fieldset");
   var firstName = document.querySelector ("#first-name");
   var lastName = document.querySelector ("#last-name");
   var dni = document.querySelector ("#dni");
-  var bithdate = document.querySelector ("#bithdate"); 
+  var bithdate = document.querySelector ("#bithdate");
   var phone =  document.querySelector ("#phone");
   var address =  document.querySelector ("#address");
   var locality =  document.querySelector ("#locality");
@@ -41,9 +41,8 @@ window.onload = function () {
   errorPassword.innerHTML = '';
   errorRepeatPassword.innerHTML = '';
 
-
   errorFirstName.classList.add('error');
-  errorLastName.classList.add('error'); 
+  errorLastName.classList.add('error');
   errorDni.classList.add('error');
   errorBithdate.classList.add('error');
   errorPhone.classList.add('error');
@@ -66,11 +65,10 @@ window.onload = function () {
   fieldset[9].appendChild(errorPassword);
   fieldset[10].appendChild(errorRepeatPassword);
 
-
   firstName.addEventListener('blur', function() {
       if(validateFirstName(firstName.value)) {
         firstName.classList.add("border-green");
-      } else {
+      }else {
         firstName.classList.add("border-red");
         errorFirstName.innerHTML = 'Name is not valid';
       }
@@ -83,7 +81,7 @@ window.onload = function () {
   lastName.addEventListener('blur', function() {
       if(validateLastName(lastName.value)) {
         lastName.classList.add("border-green");
-      } else {
+      }else {
         lastName.classList.add("border-red");
         errorLastName.innerHTML = 'Lastname is not valid';
       }
@@ -96,7 +94,7 @@ window.onload = function () {
   dni.addEventListener('blur', function() {
       if(validateDni(dni.value)) {
         dni.classList.add("border-green");
-      } else {
+      }else {
         dni.classList.add("border-red");
         errorDni.innerHTML = 'Dni is not valid';
       }
@@ -109,7 +107,7 @@ window.onload = function () {
   bithdate.addEventListener('blur', function() {
       if(hasValidDateformat(bithdate.value)) {
           bithdate.classList.add("border-green");
-      } else {
+      }else {
           bithdate.classList.add("border-red");
           errorBithdate.innerHTML = 'Bithdate is not valid';
       }
@@ -122,7 +120,7 @@ window.onload = function () {
   phone.addEventListener('blur', function() {
       if(validatePhoneNumber(phone.value)) {
           phone.classList.add("border-green");
-      } else {
+      }else {
           phone.classList.add("border-red");
           errorPhone.innerHTML = 'Phone is not valid';
       }
@@ -135,7 +133,7 @@ window.onload = function () {
   locality.addEventListener('blur', function() {
       if(validateLocality(locality.value)) {
           locality.classList.add("border-green");
-      } else {
+      }else {
           locality.classList.add("border-red");
           errorLocality.innerHTML = 'Locality is not valid';
       }
@@ -148,7 +146,7 @@ window.onload = function () {
   address.addEventListener('blur', function() {
       if(hasValidAddress(address.value)) {
           address.classList.add("border-green");
-      } else {
+      }else {
           address.classList.add("border-red");
           errorAddress.innerHTML = 'Address is not valid';
       }
@@ -162,7 +160,7 @@ window.onload = function () {
   zipcode.addEventListener('blur', function() {
       if(validateZipCode(zipcode.value)) {
           zipcode.classList.add("border-green");
-      } else {
+      }else {
           zipcode.classList.add("border-red");
           errorZipcode.innerHTML = 'Zipcode not valid';
       }
@@ -176,7 +174,7 @@ window.onload = function () {
   email.addEventListener('blur', function() {
       if(hasValidEmail(email.value)) {
           email.classList.add("border-green");
-      } else {
+      }else {
           email.classList.add("border-red");
           errorEmail.innerHTML = 'The email is not valid';
       }
@@ -190,7 +188,7 @@ window.onload = function () {
   password.addEventListener('blur', function() {
       if(validatePassword(password.value)) {
           password.classList.add("border-green");
-      } else {
+      }else {
           password.classList.add("border-red");
           errorPassword.innerHTML = 'Password is not valid';
       }
@@ -204,7 +202,7 @@ window.onload = function () {
   repeatPassword.addEventListener('blur', function() {
       if(validateRepeatPassword(repeatPassword.value)) {
         repeatPassword.classList.add("border-green");
-      } else {
+      }else {
         repeatPassword.classList.add("border-red");
         errorRepeatPassword.innerHTML = 'Password do not match';
       }
@@ -214,10 +212,6 @@ window.onload = function () {
     repeatPassword.classList.remove('border-green','border-red');
     errorRepeatPassword.innerHTML = '';
   }
-
-  /*Se debe agregar un botón “Create” que al presionarlo se muestre un cartel emergente (Alert) con la información cargada 
-  en el formulario en caso de que haya pasado todas las validaciones. Si alguna validación no pasó, además de mostrar 
-  el error debajo del campo, también se debe mostrar el error en el cartel emergente.*/
 
   button.addEventListener ('click',function(e){
     e.preventDefault();
@@ -281,10 +275,7 @@ window.onload = function () {
 
     if (error) {
       alert(errorAlert);
-      //signUp()
       return false;
-      
-
     } else {
       alert('First name: ' + firstName.value +
       '\nLast name: ' + lastName.value +
@@ -348,7 +339,7 @@ window.onload = function () {
     }
 
     function validateRepeatPassword (valueToTest){
-      if(hasLetters(valueToTest) && hasNumbers(valueToTest) && valueToTest.length >= 8 
+      if(hasLetters(valueToTest) && hasNumbers(valueToTest) && valueToTest.length >= 8
       && valueToTest === password.value ){
         return true;
       }return false;
@@ -356,16 +347,16 @@ window.onload = function () {
 
     function hasOnlyNumbers(valueToTest) {
         for (var j = 0; j < valueToTest.length; j++){
-            if (isNaN(valueToTest[j])) { 
+            if (isNaN(valueToTest[j])) {
              return false;
             }
           }
         return true;
     }
-  
+
     function hasOnlyLetters(valueToTest) {
         for (var j = 0; j < valueToTest.length; j++){
-            if (!isNaN(valueToTest[j])) { 
+            if (!isNaN(valueToTest[j])) {
              return false;
             }
           }
@@ -379,16 +370,15 @@ window.onload = function () {
             if (hasNumber === false) {
               if (numbers [i]=== valueToTest [j]){
                 hasNumber = true;
-  
               }else {
                 hasNumber = false;
               }
             }
          }
         }
-        return hasNumber; 
+        return hasNumber;
       }
-  
+
       function hasLetters (valueToTest){
         var hasLetters = false;
         for (var i = 0; i < alphabet.length; i++) {
@@ -400,7 +390,7 @@ window.onload = function () {
         }
         return hasLetters;
       }
-  
+
     function hasValidEmail(valueToTest) {
         var emailExpression = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
         if(emailExpression.test(valueToTest)) {
@@ -421,7 +411,7 @@ window.onload = function () {
         }
         return false;
     }
-  
+
     function hasMiddleSpace(valueToTest) {
         for (var i = 1; i < valueToTest.length-1; i++) {
             if(valueToTest[i] === " ") {
@@ -429,7 +419,7 @@ window.onload = function () {
             }
         }
         return false;
-  
+
     }
     function hasValidAddress(valueToTest) {
         if(hasNumbers(valueToTest) && hasLetters(valueToTest) && valueToTest.length >=5 && hasMiddleSpace(valueToTest)) {
@@ -447,7 +437,7 @@ function signUp(){
                   + '&dob=' + dob + '&address=' + address.value + '&phone=' + phone.value +
                   '&city=' + locality.value + '&zip=' + zipcode.value + '&email=' + email.value 
                   + '&password=' + password.value + '&repeatPassword=' + repeatPassword.value;
-  fetch(url+urlParams) 
+  fetch(url+urlParams)
   .then(function(response){
     return response.json();
   })
@@ -503,5 +493,5 @@ repeatPassword.value = userData.repeatPassword;
 
 
 
-}  
+}
 
