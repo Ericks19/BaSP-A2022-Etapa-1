@@ -31,7 +31,7 @@ https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-3/index.html
 ```
 By Erick Sequeira
 
-# week-06 
+# week-06
 We are making 2 different forms and giving them interaction using javascript.
 
 You can see the log in form by follow this link:
@@ -42,7 +42,25 @@ And you can see the sign up form by follow this link:
 ```
 https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-06/views/sign-up.html
 ```
-You can also nav through the home and use the forms
+You can also nav through the home and use the forms:
 ```
 https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-06/views/index.html
 ```
+By Erick Sequeira
+
+# week-07
+We keep working on what we did las week now making a request to a server and manage the information from this request.
+
+You can see the work on log in form by follow this link:
+```
+https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-07/views/login.html
+```
+You can see the work on sign up form by follow this link:
+```
+https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-07/views/sign-up.html
+```
+You can also nav through the home and use the forms:
+```
+https://ericks19.github.io/BaSP-A2022-Etapa-1/semana-07/views/index.html
+```
+By Erick Sequeira

@@ -108,7 +108,7 @@ logInButton.addEventListener("click", function(e){
   e.preventDefault();
   if ( hasValidEmail(emailInput.value) && hasValidPassword(passwordInput.value)){
     alert (emailInput.value + ', ' + passwordInput.value);
-    login();  
+    login();
   }else if (!hasValidEmail(emailInput.value) && hasValidPassword(passwordInput.value)){
     alert (errorEmail.innerText = 'Email is not valid');
   }else if (hasValidEmail(emailInput.value) && !hasValidPassword (passwordInput.value)){

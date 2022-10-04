@@ -222,57 +222,46 @@ window.onload = function () {
       errorAlert.push('Invalid first name\n');
       error = true;
     }
-
     if (!validateLastName(lastName.value)) {
       errorAlert.push('Invalid last name\n');
       error = true;
     }
-
     if (!validateDni(dni.value)) {
       errorAlert.push('Invalid dni\n');
       error = true;
     }
-
     if (!hasValidDateformat(bithdate.value)) {
       errorAlert.push('Invalid date of birth\n');
       error = true;
     }
-
     if (!validatePhoneNumber(phone.value)) {
       errorAlert.push('Invalid phone number\n');
       error = true;
     }
-
     if (!hasValidAddress(address.value)) {
       errorAlert.push('Invalid address\n');
       error = true;
     }
-
     if (!validateLocality(locality.value)) {
       errorAlert.push('Invalid location\n');
       error = true;
     }
-
     if (!validateZipCode(zipcode.value)) {
       errorAlert.push('Invalid postal code\n');
       error = true;
     }
-
     if (!hasValidEmail(email.value)) {
       errorAlert.push('Invalid email\n');
       error = true;
     }
-
     if (!validatePassword(password.value)) {
       errorAlert.push('Invalid password\n');
       error = true;
     }
-
     if (!validateRepeatPassword(repeatPassword.value)) {
       errorAlert.push('Invalid password check\n');
       error = true;
     }
-
     if (error) {
       alert(errorAlert);
       return false;
@@ -362,7 +351,6 @@ window.onload = function () {
           }
         return true;
     }
-
     function hasNumbers (valueToTest){
         var hasNumber = false;
         for (var i = 0; i < numbers.length; i++) {
@@ -378,7 +366,6 @@ window.onload = function () {
         }
         return hasNumber;
       }
-
       function hasLetters (valueToTest){
         var hasLetters = false;
         for (var i = 0; i < alphabet.length; i++) {
@@ -390,7 +377,6 @@ window.onload = function () {
         }
         return hasLetters;
       }
-
     function hasValidEmail(valueToTest) {
         var emailExpression = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
         if(emailExpression.test(valueToTest)) {
@@ -411,7 +397,6 @@ window.onload = function () {
         }
         return false;
     }
-
     function hasMiddleSpace(valueToTest) {
         for (var i = 1; i < valueToTest.length-1; i++) {
             if(valueToTest[i] === " ") {
@@ -419,7 +404,6 @@ window.onload = function () {
             }
         }
         return false;
-
     }
     function hasValidAddress(valueToTest) {
         if(hasNumbers(valueToTest) && hasLetters(valueToTest) && valueToTest.length >=5 && hasMiddleSpace(valueToTest)) {
@@ -435,7 +419,7 @@ var url = 'https://basp-m2022-api-rest-server.herokuapp.com/signup';
 function signUp(){
   var urlParams = '?name=' + firstName.value +  '&lastName=' + lastName.value + '&dni=' + dni.value
                   + '&dob=' + dob + '&address=' + address.value + '&phone=' + phone.value +
-                  '&city=' + locality.value + '&zip=' + zipcode.value + '&email=' + email.value 
+                  '&city=' + locality.value + '&zip=' + zipcode.value + '&email=' + email.value
                   + '&password=' + password.value + '&repeatPassword=' + repeatPassword.value;
   fetch(url+urlParams)
   .then(function(response){
@@ -452,7 +436,7 @@ function signUp(){
   .catch(function(error){
     alert(error);
   })
-  
+
 }
 
 var userData = null
