@@ -26,9 +26,6 @@ window.onload = function () {
   fieldset[0].appendChild(errorEmail);
   fieldset[1].appendChild(errorPassword);
 
-
-
-
   function verifyIfPasswordHasNumber (passwordInput){
     for (var i = 0; i < numbers.length; i++) {
       for (var j = 0; j < passwordInput.length; j++){
@@ -135,7 +132,7 @@ function login(){
     if(response.success == true){
       alert(response.msg);
     }else {
-      throw new Error ('Could not log in');
+      throw new Error ('Could not log in \n' + response.msg);
     }
   })
   .catch(function(error){

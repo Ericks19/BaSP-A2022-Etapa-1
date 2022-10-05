@@ -77,7 +77,6 @@ window.onload = function () {
     firstName.classList.remove("border-green", "border-red");
     errorFirstName.innerHTML = '';
     }
-
   lastName.addEventListener('blur', function() {
       if(validateLastName(lastName.value)) {
         lastName.classList.add("border-green");
@@ -90,7 +89,6 @@ window.onload = function () {
     lastName.classList.remove("border-green", "border-red");
     errorLastName.innerHTML = '';
     }
-
   dni.addEventListener('blur', function() {
       if(validateDni(dni.value)) {
         dni.classList.add("border-green");
@@ -103,7 +101,6 @@ window.onload = function () {
     dni.classList.remove("border-green", "border-red");
     errorDni.innerHTML = '';
     }
-
   bithdate.addEventListener('blur', function() {
       if(hasValidDateformat(bithdate.value)) {
           bithdate.classList.add("border-green");
@@ -111,12 +108,11 @@ window.onload = function () {
           bithdate.classList.add("border-red");
           errorBithdate.innerHTML = 'Bithdate is not valid';
       }
-  })
+  });
   bithdate.onfocus = function () {
     bithdate.classList.remove("border-green", "border-red");
     errorBithdate.innerHTML = '';
     }
-
   phone.addEventListener('blur', function() {
       if(validatePhoneNumber(phone.value)) {
           phone.classList.add("border-green");
@@ -124,12 +120,11 @@ window.onload = function () {
           phone.classList.add("border-red");
           errorPhone.innerHTML = 'Phone is not valid';
       }
-  })
+  });
   phone.onfocus = function () {
     phone.classList.remove("border-green", "border-red");
     errorPhone.innerHTML = '';
     }
-
   locality.addEventListener('blur', function() {
       if(validateLocality(locality.value)) {
           locality.classList.add("border-green");
@@ -137,12 +132,11 @@ window.onload = function () {
           locality.classList.add("border-red");
           errorLocality.innerHTML = 'Locality is not valid';
       }
-  })
+  });
   locality.onfocus = function () {
     locality.classList.remove("border-green", "border-red");
     errorLocality.innerHTML = '';
     }
-
   address.addEventListener('blur', function() {
       if(hasValidAddress(address.value)) {
           address.classList.add("border-green");
@@ -150,13 +144,11 @@ window.onload = function () {
           address.classList.add("border-red");
           errorAddress.innerHTML = 'Address is not valid';
       }
-  })
-
+  });
   address.onfocus = function () {
     address.classList.remove("border-green", "border-red");
     errorAddress.innerHTML = '';
     }
-
   zipcode.addEventListener('blur', function() {
       if(validateZipCode(zipcode.value)) {
           zipcode.classList.add("border-green");
@@ -164,13 +156,11 @@ window.onload = function () {
           zipcode.classList.add("border-red");
           errorZipcode.innerHTML = 'Zipcode not valid';
       }
-  })
-
+  });
   zipcode.onfocus = function(){
     zipcode.classList.remove('border-green', 'border-red');
     errorZipcode.innerHTML = '';
   }
-
   email.addEventListener('blur', function() {
       if(hasValidEmail(email.value)) {
           email.classList.add("border-green");
@@ -178,13 +168,11 @@ window.onload = function () {
           email.classList.add("border-red");
           errorEmail.innerHTML = 'The email is not valid';
       }
-  })
-
+  });
   email.onfocus = function(){
     email.classList.remove('border-green', 'border-red');
     errorEmail.innerHTML = '';
   }
-
   password.addEventListener('blur', function() {
       if(validatePassword(password.value)) {
           password.classList.add("border-green");
@@ -192,13 +180,11 @@ window.onload = function () {
           password.classList.add("border-red");
           errorPassword.innerHTML = 'Password is not valid';
       }
-  })
-
+  });
   password.onfocus = function(){
     password.classList.remove('border-green', 'border-red');
     errorPassword.innerHTML = ''
   }
-
   repeatPassword.addEventListener('blur', function() {
       if(validateRepeatPassword(repeatPassword.value)) {
         repeatPassword.classList.add("border-green");
@@ -206,13 +192,11 @@ window.onload = function () {
         repeatPassword.classList.add("border-red");
         errorRepeatPassword.innerHTML = 'Password do not match';
       }
-  })
-
+  });
   repeatPassword.onfocus = function (){
     repeatPassword.classList.remove('border-green','border-red');
     errorRepeatPassword.innerHTML = '';
   }
-
   button.addEventListener ('click',function(e){
     e.preventDefault();
     var errorAlert = [];
@@ -280,60 +264,47 @@ window.onload = function () {
         signUp()
     }
   })
-
-
-    //                                  FUNCIONES
-
-
     function validateFirstName (valueToTest){
       if(hasOnlyLetters(valueToTest) && valueToTest.length >= 3){
         return true;
       }return false;
     }
-
     function validateLastName (valueToTest){
       if(hasOnlyLetters(valueToTest) && valueToTest.length >= 3){
         return true;
       }return false;
     }
-
     function validateDni (valueToTest){
       if(hasOnlyNumbers(valueToTest) && valueToTest.length > 7){
         return true;
       }return false;
     }
-
     function validatePhoneNumber (valueToTest){
       if(hasOnlyNumbers(valueToTest) && valueToTest.length == 10){
         return true;
       }return false;
     }
-
     function validateLocality (valueToTest){
       if(hasLetters(valueToTest) && hasNumbers (valueToTest) && valueToTest.length > 3){
         return true;
       }return false;
     }
-
     function validateZipCode (valueToTest){
       if(hasOnlyNumbers(valueToTest) && valueToTest.length >= 4 && valueToTest.length <= 5){
         return true;
       }return false;
     }
-
     function validatePassword (valueToTest){
       if(hasLetters(valueToTest) && hasNumbers(valueToTest) && valueToTest.length >= 8){
         return true;
       }return false;
     }
-
     function validateRepeatPassword (valueToTest){
       if(hasLetters(valueToTest) && hasNumbers(valueToTest) && valueToTest.length >= 8
       && valueToTest === password.value ){
         return true;
       }return false;
     }
-
     function hasOnlyNumbers(valueToTest) {
         for (var j = 0; j < valueToTest.length; j++){
             if (isNaN(valueToTest[j])) {
@@ -342,7 +313,6 @@ window.onload = function () {
           }
         return true;
     }
-
     function hasOnlyLetters(valueToTest) {
         for (var j = 0; j < valueToTest.length; j++){
             if (!isNaN(valueToTest[j])) {
@@ -366,7 +336,7 @@ window.onload = function () {
         }
         return hasNumber;
       }
-      function hasLetters (valueToTest){
+    function hasLetters (valueToTest){
         var hasLetters = false;
         for (var i = 0; i < alphabet.length; i++) {
           for (var j = 0; j < valueToTest.length; j++){
@@ -411,11 +381,8 @@ window.onload = function () {
         }
         return false;
     }
-      
-// TRABAJO WEEK 07
+
 var url = 'https://basp-m2022-api-rest-server.herokuapp.com/signup';
-
-
 function signUp(){
   var urlParams = '?name=' + firstName.value +  '&lastName=' + lastName.value + '&dni=' + dni.value
                   + '&dob=' + dob + '&address=' + address.value + '&phone=' + phone.value +
@@ -428,15 +395,18 @@ function signUp(){
   .then(function(response){
     if(response.success == true){
       localStorage.setItem('userData', JSON.stringify(response.data));
-      alert(response.msg +'\n' + 'Information from the request:\n' + JSON.stringify(response.data));
+      alert(response.msg +'\n' + 'Information from the request:\n' + JSON.stringify(response.data,null,2));
     }else {
-      throw new Error ('Could not Sign Up');
+      var fetchErrors = [];
+      for(var i = 0; i < response.errors.length; i++){
+        fetchErrors.push(response.errors[i].msg);
+      }
+      throw new Error ('Could not Sign Up\n' + fetchErrors);
     }
   })
   .catch(function(error){
     alert(error);
   })
-
 }
 
 var userData = null
@@ -449,6 +419,7 @@ function changeDob (){
   var newDob = year + '-'+ day + '-' + month;
   return newDob;
 }
+
 firstName.value = userData.name;
 lastName.value = userData.lastName;
 dni.value = userData.dni;
@@ -461,17 +432,6 @@ email.value = userData.email;
 password.value = userData.password;
 repeatPassword.value = userData.repeatPassword;
 }
-
-/*else {
-  // throw new Error('hubo un error')
-  console.log(response.errors);
-  var fetchErrors = [];
-  for (var i = 0; i < response.errors.length; i++) {
-   fetchErrors.push(response.errors[i].msg);
-  }
-  alert('los errors son' + fetchErrors);
- }*/
-
 
 
 
